@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState, useRef } from "react"
+import Image from "next/image"
 import {
   Activity,
   AlertCircle,
@@ -13,7 +14,6 @@ import {
   Download,
   Globe,
   HardDrive,
-  Hexagon,
   LineChart,
   Lock,
   type LucideIcon,
@@ -216,7 +216,13 @@ export default function Dashboard() {
         {/* Header */}
         <header className="flex items-center justify-between py-4 border-b border-slate-700/50 mb-6">
           <div className="flex items-center space-x-2">
-            <Hexagon className="h-8 w-8 text-cyan-500" />
+            <Image 
+              src="/nexus-logo.png" 
+              alt="NEXUS Logo" 
+              width={32} 
+              height={32} 
+              className="h-8 w-8 object-contain"
+            />
             <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               NEXUS OS
             </span>
