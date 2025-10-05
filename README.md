@@ -197,6 +197,6 @@ For support, please:
 ---
 
 <div align="center">
-  <p>Built with ❤️ by the NEXUS Team</p>
+  <p>Built BY LAADNANI</p>
   <p>© 2024 NEXUS CoreTracker. All rights reserved.</p>
 </div>
